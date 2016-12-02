@@ -18,7 +18,7 @@ encode (dataset_URI1_string)
 
 
 localserver_string='http://localhost:8000'
-vmogiserver_string='http://vmogi01.deri.ie:8000'
+vmogiserver_string=''
 
 request_for_dim_names_str=localserver_string+'/dimensions?dataset='+ encode (dataset_URI1_string)
 print request_for_dim_names_str
